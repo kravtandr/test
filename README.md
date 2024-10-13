@@ -73,6 +73,7 @@ https://husarnet.com/
 
 
 ## Настройка рабочего пространства
+![Image alt](https://github.com/kravtandr/ros_metod/raw/master/images/network.png)
 
 ### При подключении к новой сети
 
@@ -101,6 +102,11 @@ https://husarnet.com/
 	sudo wpa_cli -i wlan0 list_networks
 	sudo wpa_cli -i wlan0 select_network 0
 
+### Диаграмма развертывания 
+![Image alt](https://github.com/kravtandr/ros_metod/raw/master/images/deployment.png)
+
+### Структурная схема робота 
+![Image alt](https://github.com/kravtandr/ros_metod/raw/master/images/hard.png)
 
 ### FAQ 
 ###### Описание: Ошибка в `rosrun tf view_frames`
