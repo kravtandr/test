@@ -1,7 +1,8 @@
 # Робот-гид
 
-ветка robot - сам робот (разбери)
-ветка robot-user - сервер (убунта 20.04)
+ветка robot - Ros на роботе
+
+ветка robot-user - Ros на сервере 
 
 Репозиторий
 https://github.com/kravtandr/bbot/tree/robot-user
