@@ -1,4 +1,4 @@
-![Image alt](https://github.com/kravtandr/ros_metod/raw/master/images/robot.png)
+# Робот-гид
 
 ветка robot - сам робот (разбери)
 ветка robot-user - сервер (убунта 20.04)
@@ -15,10 +15,11 @@ https://amperka.ru/blogs/projects/abot-robot-part-1
 Для настройки локальной сети
 https://husarnet.com/
 
+![Image alt](https://github.com/kravtandr/ros_metod/raw/master/images/robot.png)
+
 Для начала работы потребуется Ubuntu Focal (20.04) . Именно Ubuntu Focal (20.04), другие версии не подойдут. 
 
 *Предупреждение: Если у вас apple silicon или видеокарта AMD, то gazebo, rviz и rqt могут работать некорректно.*
-
 ## Основные команды
 **roscore** - запуск ядра ROS
 
@@ -83,12 +84,12 @@ https://husarnet.com/
 	 Robot-user
 		echo "ROS_MASTER_URI=http://robot-user:11311" >> ~/.bashrc
 		echo "ROS_HOSTNAME=robot-user" >> ~/.bashrc
-		echo "ROS_IP=10.211.55.5" >> ~/.bashrc
+		echo "ROS_IP=192.XX.XX.XX" >> ~/.bashrc
 		
 	Robot 
 		echo "ROS_MASTER_URI=http://robot-user:11311" >> ~/.bashrc
 		echo "ROS_HOSTNAME=robot" >> ~/.bashrc
-		echo "ROS_IP=192.168.88.82" >> ~/.bashrc
+		echo "ROS_IP=192.XX.XX.XX" >> ~/.bashrc
 
 3. Перезагружаем настройки командной строки
 	source ~/.bashrc
@@ -107,12 +108,12 @@ https://husarnet.com/
 	https://github.com/ros/geometry/pull/193/files#diff-6752a402ecb9165369200c2f88abbe0efa471d0b69f2c9e6d907b71f0189cdba
 
 
-###### Описание: **CMake Error** at /opt/ros/noetic/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
-  Could not find a package configuration file provided by
-  "controller_manager" with any of the following names:
-    controller_managerConfig.cmake
-
-    controller_manager-config.cmake
+###### Описание: **CMake Error**  controller_manager-config.cmake:
+	**CMake Error** at /opt/ros/noetic/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
+	  Could not find a package configuration file provided by
+	  "controller_manager" with any of the following names:
+	    controller_managerConfig.cmake
+	    controller_manager-config.cmake
 ######  Решение: 
 	sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
 	sudo apt update
