@@ -74,9 +74,10 @@
 	rosrun map_server map_saver -f map1  
 
 
-## Настройка рабочего пространства
+## Настройка сети ROS
 ![Image alt](https://github.com/kravtandr/ros_metod/raw/master/images/network.png)
 
+ Документация https://wiki.ros.org/ROS/Tutorials/MultipleMachines
 ### При подключении к новой сети
 
 1. sudo nano /etc/hosts
