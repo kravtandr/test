@@ -4,17 +4,18 @@
 
 ветка robot-user - Ros на сервере 
 
-Репозиторий
-https://github.com/kravtandr/bbot/tree/robot-user
-
-Методичка по ROS
-https://github.com/kravtandr/ros_metod/blob/master/Методичка%20ROS.md
-
-Подробное описание проекта от Амперки
-https://amperka.ru/blogs/projects/abot-robot-part-1
-
-Для настройки локальной сети
-https://husarnet.com/
+## Cсылки
+	Репозиторий
+	https://github.com/kravtandr/bbot/tree/robot-user
+	
+	Методичка по ROS
+	https://github.com/kravtandr/ros_metod/blob/master/Методичка%20ROS.md
+	
+	Подробное описание проекта от Амперки
+	https://amperka.ru/blogs/projects/abot-robot-part-1
+	
+	Для настройки локальной сети
+	https://husarnet.com/
 
 ![Image alt](https://github.com/kravtandr/ros_metod/raw/master/images/robot.png)
 
